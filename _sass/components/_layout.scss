@@ -1,0 +1,50 @@
+.about {
+  display: grid;
+  grid-template-rows: 1fr auto max-content max-content auto;
+  grid-template-columns: 1fr minmax(300px, 400px) minmax(200px, 500px) 1fr;
+  grid-gap: 1em 3em;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.about__picture {
+  grid-area: 2 / 3 / 6 / 4;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.about__title {
+  grid-area: 3 / 2;
+  align-self: end;
+}
+
+.about__subtitle {
+  grid-area: 4 / 2;
+}
+
+.about__bio {
+  grid-area: 5 / 2;
+
+  & p {
+    margin: 1em auto;
+  }
+}
+
+/* Ícones redes sociais */
+.social__list {
+  display: flex;
+  margin-bottom: 2em;
+
+  & li {
+    margin-right: 10px;
+  }
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: text-top;
+}
