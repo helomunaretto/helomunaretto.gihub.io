@@ -7,7 +7,7 @@
   min-height: 100vh;
   grid-gap: 2em 0;
 
-  & section {
+  & > section {
     grid-column-start: 2;
     padding: 2em;
   }
@@ -75,3 +75,41 @@
   display: inline-block;
   vertical-align: text-top;
 }
+
+/*********************
+PORTFOLIO
+*********************/
+
+.portfolio__list__item {
+  display: flex;
+  margin: 3em 0;
+  align-items: center;
+}
+
+.portfolio__list__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.portfolio__list__item > article {
+  flex-basis: 60%;
+  max-width: 400px;
+
+  & p {
+    margin: 0.5em 0;
+  }
+
+  & h5 {
+    margin-top: 1em;
+  }
+
+  & ul {
+    margin: 0.5em 1em;
+  }
+
+  & li {
+    line-height: 180%;
+    list-style: disc;
+  }
+}
+
+
