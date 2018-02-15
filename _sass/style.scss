@@ -2,9 +2,11 @@
 
 $main-font: roboto, sans-serif;
 $secondary-font: 'Playfair Display', serif;
+$primary: #333;
 
 // Import partials.
 @import
   "components/base",
+  "components/buttons",
   "components/layout";
 

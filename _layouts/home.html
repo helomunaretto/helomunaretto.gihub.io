@@ -26,30 +26,30 @@ layout: default
     </article>
   </div>
 </section>
-
+<!--
 <section class="skills">
   <h2>Skills</h2>
   <ul class="skills__list">
     <li>
       <h3>UI/UX Design</h3>
       <p>
-        Experiência na área de design visual, criação de wireframes e protótipos de alta-fidelidade, 
-        <em>atomic design</em> e <em>design systems</em>. Conhecimento na área de avaliação heurística, 
+        Experiência na área de design visual, criação de wireframes e protótipos de alta-fidelidade,
+        <em>atomic design</em> e <em>design systems</em>. Conhecimento na área de avaliação heurística,
         usabilidade e outros entregáveis de UX.
       </p>
-    </li>   
+    </li>
     <li>
       <h3>Front-end</h3>
       <p>
-        Experiência no desenolvimento de interfaces utilizando HTML5, CSS e pré-processador SASS e no uso de GIT e 
-        GIT LFS para versionamento de arquivos. 
+        Experiência no desenolvimento de interfaces utilizando HTML5, CSS e pré-processador SASS e no uso de GIT e
+        GIT LFS para versionamento de arquivos.
         Conhecimento básico em JavaScript, JQuery e criação de componentes utilizando React.
         Conhecimento em ferramentas como Jekyll e Wordpress para criação de websites.
       </p>
     </li>
   </ul>
   <h2>Ferramentas</h2>
-  <ul class="tools">    
+  <ul class="tools">
     <li>Sketch</li>
     <li>InVision</li>
     <li>Adobe XD</li>
@@ -57,13 +57,13 @@ layout: default
     <li>Adobe Photoshop</li>
     <li>Adobe InDesign</li>
   </ul>
-</section>
+</section> -->
 
 <section class="portfolio">
   <h2>Portfolio</h2>
   <ul class="portfolio__list">
     <li class="portfolio__list__item">
-      <article>
+      <article class="portfolio__description">
         <h3>Rainmap</h3>
         <p>
           O RainMap é uma plataforma que simula um sistema de aproveitamento de água da chuva em edificações.
@@ -80,12 +80,12 @@ layout: default
         </ul>
         <a href="https://www.rainmap.com.br" class="btn" target="blank">Acessar</a>
       </article>
-      <figure>
-        <img />
+      <figure class="portfolio__image">
+        <img srcset="{{ "/assets/rainmap.png" | relative_url }}" title="Rainmap" width="600px" alt="Imagem de um Macbook e um Ipad mostrando o layout do site e do simulador" />
       </figure>
     </li>
     <li class="portfolio__list__item">
-      <article>
+      <article class="portfolio__description">
         <h3>Manifestação Pública</h3>
         <p>
           Projeto desenvolvido em parceria entre LabTrans/UFSC e Secretaria Nacional de Portos que tem como objetivo possibilitar a
@@ -100,12 +100,12 @@ layout: default
           <li>Implementação em HTML/CSS</li>
         </ul>
       </article>
-      <figure>
-        <img />
+      <figure class="portfolio__image">
+        <img srcset="{{ "/assets/manifestacao.png" | relative_url }}" title="Rainmap" width="600px" alt="Imagem de um Macbook e um Ipad mostrando o layout do site e do simulador" />
       </figure>
     </li>
     <li class="portfolio__list__item">
-      <article>
+      <article class="portfolio__description">
         <h3>Hórus</h3>
         <p>
           Projeto desenvolvido em parceria com a Secretaria de Aviação Civil, enquanto designer no LabTrans, para exibição e administração
@@ -123,8 +123,8 @@ layout: default
         </ul>
         <a href="https://horus.labtrans.ufsc.br" class="btn" target="blank">Acessar</a>
       </article>
-      <figure>
-        <img />
+      <figure class="portfolio__image">
+        <img srcset="{{ "/assets/horus.png" | relative_url }}" title="Rainmap" width="600px" alt="Imagem de um Macbook e um Ipad mostrando o layout do site e do simulador" />
       </figure>
     </li>
   </ul>
