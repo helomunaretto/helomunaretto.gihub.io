@@ -86,6 +86,52 @@
 }
 
 /*********************
+SKILLS
+*********************/
+
+.background-skills {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  background: #eee;
+}
+
+.skills {
+  grid-row-start: 2;
+}
+
+.skills__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & li {
+    text-align: center;
+    margin: 3rem 5rem;
+  }
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  padding: 1rem;
+
+  & li {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .skills__list {
+    flex-direction: column;
+  }
+
+  .tools {
+    flex-wrap: wrap;
+  }
+}
+
+/*********************
 PORTFOLIO
 *********************/
 
@@ -147,47 +193,44 @@ PORTFOLIO
 }
 
 /*********************
-SKILLS
+OUTROS TRABALHOS
 *********************/
 
-.background-skills {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
+.another__works {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 3em;
+  margin: 3em 0;
+}
+
+.another__works li {
   background: #eee;
+  border: 1px solid #eee;
 }
 
-.skills {
-  grid-row-start: 2;
+.another__works img {
+  width: 100%;
 }
 
-.skills__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  & li {
-    text-align: center;
-    margin: 3rem 5rem;
-  }
+.portfolio__item__grid {
+  display: grid;
+  align-items: end;
 }
 
-.tools {
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid #ccc;
-  padding: 1rem;
-
-  & li {
-    margin: 1rem;
-  }
+.portfolio__item__grid img,
+.portfolio__item__grid legend {
+  grid-area: 1 / 1 / 2 / 2;
 }
 
-@media screen and (max-width: 770px) {
-  .skills__list {
-    flex-direction: column;
-  }
+.portfolio__item__grid legend {
+  transform: scaleY(0);
+  transform-origin: center bottom;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+  line-height: 150%;
+  transition: transform 0.3s;
+}
 
-  .tools {
-    flex-wrap: wrap;
-  }
+.portfolio__item__grid:hover legend {
+  transform: scaleY(1);
 }
