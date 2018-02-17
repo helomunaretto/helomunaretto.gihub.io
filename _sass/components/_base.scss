@@ -43,26 +43,25 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: $dark;
   font-size: 1em;
 }
 
 h1 {
-  color: #333;
+  color: $highlight;
+  font-weight: 800;
+  font-size: 3.5em;
+  font-family: $secondary-font;
+}
+
+h2 {
   font-weight: 800;
   font-size: 3em;
   font-family: $secondary-font;
 }
 
-h2 {
-  color: #333;
-  font-weight: 800;
-  font-size: 2.5em;
-  font-family: $secondary-font;
-}
-
 h3 {
-  color: #333;
+  color: $dark;
   font-weight: bold;
   font-size: 2em;
   font-weight: 300;
@@ -70,20 +69,17 @@ h3 {
 }
 
 h4 {
-  color: #333;
   font-weight: 300;
   font-size: 1.4em;
   font-family: $secondary-font;
 }
 
 h5 {
-  color: #333;
   font-weight: 400;
   font-size: 1.2em;
 }
 
 h6 {
-  color: #333;
   font-weight: 400;
   font-size: 1em;
 }
@@ -110,6 +106,6 @@ p ul {
 }
 
 a {
-  color: #000;
+  color: $dark;
   text-decoration: none;
 }

@@ -1,5 +1,12 @@
 .btn {
   padding: 1rem 2rem;
-  border: 1px solid $primary;
+  border: 1px solid $highlight;
   display: inline-block;
+  color: $highlight;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: $highlight;
+  color: #fff;
 }
