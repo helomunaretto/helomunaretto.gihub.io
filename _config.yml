@@ -17,7 +17,7 @@ title: Portfolio - Heloisa Munaretto
 email: helo.munaretto@gmail.com
 description: "Graphic designer working with UI development about 6 years. I have solid experience creating high-fidelity mockups and implementing with HTML/CSS. Besides that I have strong visual design skills, including layout, color theory, typography and usability."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://helomunaretto.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: helomunaretto
 github_username:  helomunaretto
 linkedin_username: heloisa-munaretto-3b36a524
