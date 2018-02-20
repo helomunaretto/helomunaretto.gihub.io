@@ -74,7 +74,7 @@
   transform: rotate(45deg);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 60em) {
   .about {
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@ SKILLS
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 60em) {
   .skills__list {
     flex-direction: column;
   }
@@ -219,7 +219,7 @@ PORTFOLIO
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 60em) {
   .portfolio__list__item,
   .portfolio__list__item:nth-child(even) {
     flex-direction: column-reverse;
