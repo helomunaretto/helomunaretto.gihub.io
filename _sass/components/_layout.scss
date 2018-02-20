@@ -164,6 +164,46 @@ SKILLS
   }
 }
 
+.tools__item {
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.tools__item--sketch {
+  background-image: url("./../../assets/icons/sketch.png");
+}
+
+.tools__item--invision {
+  background-image: url("./../../assets/icons/invision.png");
+}
+
+.tools__item--zeplin {
+  background-image: url("./../../assets/icons/zeplin.png");
+}
+
+.tools__item--psd {
+  background-image: url("./../../assets/icons/ps.png");
+}
+
+.tools__item--ai {
+  background-image: url("./../../assets/icons/ai.png");
+}
+
+
+.tools__item--xd {
+  background-image: url("./../../assets/icons/xd.png");
+}
+
+.tools__item--indd {
+  background-image: url("./../../assets/icons/id.png");
+}
+
+
 /*********************
 PORTFOLIO
 *********************/
