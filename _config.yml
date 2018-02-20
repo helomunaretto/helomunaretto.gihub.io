@@ -21,6 +21,7 @@ url: "https://helomunaretto.github.io" # the base hostname & protocol for your s
 twitter_username: helomunaretto
 github_username:  helomunaretto
 linkedin_username: heloisa-munaretto-3b36a524
+google_analytics: UA-114410196-1
 
 # Build settings
 markdown: kramdown
