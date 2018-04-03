@@ -4,7 +4,7 @@
 
   & > section {
     padding: 4em 2em 0;
-    max-width: 1050px;
+    max-width: 75rem;
     margin: 0 auto;
   }
 }
@@ -30,7 +30,7 @@
 .about {
   display: grid;
   grid-template-rows: 1fr auto max-content;
-  grid-template-columns: minmax(200px, 550px) minmax(200px, 400px);
+  grid-template-columns: minmax(16rem, 45rem) minmax(16rem, 30rem);
   grid-gap: 1em 3em;
 }
 
@@ -48,6 +48,13 @@
     width: 100%;
     display: block;
   }
+}
+
+.btn__lang {
+  grid-area: 1 / -2;
+  justify-self: end;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .about__picture:before {
@@ -82,8 +89,8 @@
   }
 
   .about__picture {
-    width: 300px;
-    height: 400px;
+    width: 23rem;
+    height: 30rem;
     overflow: hidden;
     align-items: flex-start;
   }
@@ -221,7 +228,7 @@ PORTFOLIO
 
 .portfolio__description {
   flex-basis: 60%;
-  max-width: 400px;
+  max-width: 30rem;
 
   & p {
     margin: 0.5em 0;
@@ -242,7 +249,7 @@ PORTFOLIO
 }
 
 .portfolio__image {
-  max-width: 600px;
+  max-width: 40rem;
   transition: transform 0.3s;
 
   & img {
@@ -276,7 +283,7 @@ OUTROS TRABALHOS
 
 .another__works {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-gap: 3em;
   margin: 0 0 5rem;
 }
