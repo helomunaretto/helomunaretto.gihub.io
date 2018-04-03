@@ -50,6 +50,13 @@
   }
 }
 
+.btn__lang {
+  grid-area: 1 / -2;
+  justify-self: end;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 .about__picture:before {
   content: "";
   width: 10rem;
